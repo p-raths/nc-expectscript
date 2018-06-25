@@ -51,8 +51,9 @@ exit
 }
 send "From: $from\r"
 send "To: $to\r"
-send "Subject: test\r"
-send "This is a test message\r"
+send "Subject: Test\r"
+send "This is a Message\r"
+send "Thx for using mail.exp\r" 
 send ".\r"
 expect "2?? *" {
 } "5?? *" {
